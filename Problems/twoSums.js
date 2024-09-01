@@ -55,6 +55,7 @@ return [0, 3]; **/
 
 function TwoSums(nums, target) {
     let seenNumbers = {}
+    
     for (let i = 0; i < nums.length; i++) {
         let neededNumber = target - nums[i]
 
